@@ -1,0 +1,11 @@
+INSERT INTO scatters(seq, token, room_seq, user_seq, amount, receiver_count,create_at) VALUES (1,'ABC',1,1,10000,3, '2021-03-01 13:10:00');
+-- INSERT INTO scatters(seq, token, room_seq, user_seq, amount, receiver_count,create_at) VALUES (2,'abc',2,1,1000,1, '2021-03-18 21:42:00');
+-- INSERT INTO scatters(seq, token, room_seq, user_seq, amount, receiver_count,create_at) VALUES (3,'aaa',1,1,5000,1, '2021-03-18 21:42:00');
+INSERT INTO pickups(seq,scatter_seq,amount,user_seq,picked_at,create_at) VALUES (1,1,2000,1,'2021-03-01 13:15:00', '2019-03-01 13:10:00');
+INSERT INTO pickups(seq,scatter_seq,amount,user_seq,picked_at,create_at) VALUES (2,1,3000,null , null, '2019-03-01 13:10:00');
+INSERT INTO pickups(seq,scatter_seq,amount,user_seq,picked_at,create_at) VALUES (3,1,5000,null, null, '2019-03-01 13:10:00');
+-- INSERT INTO pickups(seq,scatter_seq,amount,user_seq,picked_at,create_at) VALUES (4,2,1000,null, null, '2019-03-01 13:10:00');
+-- INSERT INTO pickups(seq,scatter_seq,amount,user_seq,picked_at,create_at) VALUES (5,3,5000,null, null, '2019-03-01 13:10:00');
+-- INSERT INTO recipients(seq,scatter_seq,money,user_seq,receive_at,create_at) VALUES (1,1,2000,1,'2019-03-01 13:15:00', '2019-03-01 13:10:00');
+-- INSERT INTO recipients(seq,scatter_seq,money,user_seq,receive_at,create_at) VALUES (2,1,3000,null , null, '2019-03-01 13:10:00');
+-- INSERT INTO recipients(seq,scatter_seq,money,user_seq,receive_at,create_at) VALUES (3,1,5000,null, null, '2019-03-01 13:10:00');
